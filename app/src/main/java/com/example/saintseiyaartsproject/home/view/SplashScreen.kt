@@ -17,7 +17,7 @@ class SplashScreen : AppCompatActivity() {
             var intent = Intent(
                 this,
                 HomeActivity::class.java)
-            
+
             startActivity(intent)
 
         },3000)
