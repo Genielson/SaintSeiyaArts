@@ -7,7 +7,7 @@
     android:background="@color/colorWhite"
     android:orientation="vertical"
     tools:context=".home.view.SplashScreen">
-    
+
     <ImageView
 
         android:layout_width="wrap_content"
@@ -15,6 +15,5 @@
         android:src="@drawable/logo_splash_screen"
         android:layout_marginTop="120dp"
         />
-
 
 </LinearLayout>
