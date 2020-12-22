@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/colorWhite"
+    android:background="@drawable/ceu_estrelado"
     android:layout_height="match_parent"
     tools:context=".home.view.HomeActivity">
 
-
     <FrameLayout
+
         android:id="@+id/frameHome"
-        android:background="@color/colorWhite"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+
         />
 
 
@@ -26,5 +26,6 @@
         app:itemTextColor="#FFF"
         app:menu="@menu/nav_menu"
         />
+
 
 </RelativeLayout>
