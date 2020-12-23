@@ -9,7 +9,7 @@
     <!-- TODO: Update blank fragment layout -->
 
     <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/toolbarPersonagens"
+        android:id="@+id/toolbarCuriosidades"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#000080"
@@ -31,13 +31,13 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/txtTitlePersonagem"
+                android:id="@+id/txtTitleCuriosidades"
                 android:layout_width="237dp"
                 android:layout_height="54dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
 
-                android:background="@drawable/personagens"
+                android:background="@drawable/curiosidades"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@id/imageIconReturn"
                 tools:layout_editor_absoluteY="0dp" />
@@ -45,7 +45,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                app:layout_constraintStart_toEndOf="@id/txtTitlePersonagem"
+                app:layout_constraintStart_toEndOf="@id/txtTitleCuriosidades"
                 android:background="@drawable/golden_head"
                 />
 
@@ -56,11 +56,11 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_marginTop="60dp"
-        app:layout_constraintTop_toBottomOf="@id/txtTitlePersonagem"
+        app:layout_constraintTop_toBottomOf="@id/txtTitleCuriosidades"
         android:id="@+id/recyclerItemPersonagens"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_list_personagens"
+        tools:listitem="@layout/list_item_curiosidades"
         />
 
 </FrameLayout>

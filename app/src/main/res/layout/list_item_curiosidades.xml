@@ -19,7 +19,7 @@
         android:layout_marginLeft="12dp" />
 
     <TextView
-        android:id="@+id/txtTitleEvent"
+        android:id="@+id/txtTitleCuriosidade"
         android:layout_width="184dp"
         android:layout_height="52dp"
         android:layout_marginStart="20dp"
@@ -27,23 +27,13 @@
         android:gravity="start"
         android:text="Name"
         android:textColor="@color/colorWhite"
-        android:textSize="15sp"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="20dp" />
 
-    <TextView
-        android:id="@+id/txtCategoryEvent"
-        android:layout_width="184dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="20dp"
-        android:gravity="start"
-        android:text="Cloth"
-        android:textColor="@color/colorWhite"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/txtTitleEvent"
-        android:layout_marginLeft="20dp" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
